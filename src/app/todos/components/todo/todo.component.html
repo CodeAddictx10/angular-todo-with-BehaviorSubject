@@ -1,4 +1,4 @@
-<li [ngClass]="{ editing: isEditingProps }">
+<li [ngClass]="{ editing: isEditingProps, completed: todoProps.isCompleted }">
   <div class="view">
     <input
       type="checkbox"
